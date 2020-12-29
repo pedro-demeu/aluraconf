@@ -1,0 +1,259 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.header {
+    background-image: url('../img/destaque.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 32px;
+    padding-bottom: 16px;
+    width: 100%;
+}
+.menu {
+    display: block;
+    margin: 25px auto;
+    text-align: center;
+
+}
+.item-menu {
+    display: inline-block;
+    padding: 15px 20px;
+    background: rgba(9, 9, 9, 0.1);
+    border-radius: 15px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.link-menu {
+    text-decoration: none;
+    color: #fff;
+}
+
+.header-titulo {
+    text-align: center;
+    font-size: 70px;
+    color: #FFF;
+    margin-top: 60px;
+    text-shadow: 5px 3px 7px black;
+}
+.header-subTitulo {
+    text-align: center;
+    font-size: 50px;
+    color: #64ff64;
+    text-shadow: 5px 3px 7px black;
+}
+
+.botao-inscreva-se {
+    background: #46989d;
+    text-decoration: none;
+    color: #FFF;
+    padding: 15px 25px;
+    text-align: center;
+    display: block;
+    margin: 60px auto;
+    width: 20%;
+    border: 1px solid black;
+    border-radius: 7px;
+    font-weight: bold;
+    font-size: 17px;
+    text-transform: uppercase;
+}
+.sobre{
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+}
+.sobre-titulo h3 {
+    padding: 40px 0;
+    font-size: 40px;
+}
+.sobre-titulo h4 {
+    padding: 20px 0;
+    font-size: 25px;
+}
+.sobre-descricao p{
+    padding: 5px 0;
+    font-size: 20px;
+}
+.palestrantes {
+    background: rgb(255, 115, 0);
+}
+.palestrantes-titulos {
+    text-align: center;
+    color: #FFF;
+}
+.palestrantes-titulos h2 {
+    padding: 40px 0;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+.palestrantes-titulos h3 {
+    padding: 20px 0;
+    font-size: 25px;
+    text-align: center;
+}
+.panel-speakers {
+
+    padding-top: 40px;
+    background: #EF7247;
+}
+.panel-speakers .about-speakers {
+
+    text-align: center;
+}
+
+.panel-speakers .title {
+
+    color: white;
+    font-size: 40px;
+    margin-bottom: 16px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.panel-speakers .subtitle {
+    color: white;
+    font-size: 32px;
+    margin-bottom: 16px;
+    text-align: center;
+}
+.panel-speakers .speakers {
+
+    text-align: center;
+}
+.panel-speakers .speaker {
+
+    display: inline-block;
+    width: 250px;
+    background-color: white;
+    margin: 0 16px 32px 0;
+    padding: 18px;
+    border-radius: 10px;
+    vertical-align: top;
+}
+.panel-speakers .speaker-image {
+
+    border-radius: 50%;
+    height: 120px;
+    width: 120px;
+}
+.panel-speakers .speaker-name {
+
+    padding-top: 10px;
+}
+
+.panel-speakers .speaker-bio {
+
+    font-weight: bold;
+    margin-top: 16px;
+}
+
+.panel-speakers .speaker-speach {
+
+    margin-top: 16px;
+    padding-top: 8px;
+    font-size: 16px;
+}
+
+.panel-form {
+
+    margin-top: 32px;
+}
+
+.panel-form .title {
+    font-size: 32px;
+    color: #EF7247;
+    text-align: center;
+    text-transform: uppercase;
+}
+.field {
+    margin-botton: 16px;
+}
+.field label {
+    display: block;
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+.field .field-input {
+    display: block;
+    width: 100%;
+    font-size: 20px;
+    padding: 5px;
+}
+.container {
+
+    width: 96%;
+    margin: 0 auto;
+}
+
+.field {
+    margin-bottom: 16px;
+}
+
+.field label {
+    display: block;
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.field .field-input {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px #48A2A6; 
+}
+
+.field .field-input {
+    display: block;
+    width: 100%;
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 5px;
+}
+.field .field-input {
+    display: block;
+    width: 100%;
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px #48A2A6; 
+} 
+.header .jumbotron .button {
+
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 25px 50px;
+    background-color: #48A2A6;
+    border-radius: 8px;
+}
+.button {
+
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 25px 50px;
+    background-color: #48A2A6;
+    border-radius: 8px;
+}
+.button-place {
+    text-align: center;
+}
+
+
+
+/**MEUS HOVERS**/
+.item-menu:hover{
+    transition: 0.4s;
+    background: #46989d;
+}
+

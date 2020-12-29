@@ -1,0 +1,12 @@
+@media screen and (max-width: 580px){
+    .header-titulo {
+        font-size: 50px;
+    }
+    .header-subTitulo {
+        font-size: 30px;
+    }
+    .botao-inscreva-se {
+        font-size: 15px;
+        width: 30%;
+    }
+}
